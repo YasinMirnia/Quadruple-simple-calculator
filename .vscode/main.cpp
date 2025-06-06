@@ -93,6 +93,23 @@ int main() {
             cout << "Invalid Value.";
         } 
     } else if (choose == 4) {
+        int age, month, weeks , days;
+        cout << " Age Converter\n" << endl;
+        cout << "Enter your Age:";
+        cin >> age;
+        if (age < 0) {
+            cout << "Age Can't be Negetive.";
+            return 0;
+        }
+
+        month = age * 12;
+        weeks = age * 52;
+        days = age * 365;
+
+        cout << "Your age is:" << endl;
+        cout << month << " Month ";
+        cout << weeks << " weeks ";
+        cout << days << " days ";
 
     } else {
         cout << "Invalid Choice!" << endl;
