@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/yasinmirniya/Desktop/C-CPP/Quadruple-simple-calculator",
+      "program": "/Users/yasinmirniya/Desktop/C-CPP/Quadruple-simple-calculator/build/Debug/outDebug"
+    }
+  ]
+}
